@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="E-commnerce Application Test Automation">
+  <test name="E-commerce Test">
+    <classes>
+      
+      <listeners>
+		<listener class-name="qa.ecom.extentReport.ExtentReporterNG" />
+	  </listeners>
+      
+      
+      
+	      <!-- class name = "PACKAGE_NAME.TEST" -->
+	      <class name="qa.ecom.testCases.signInPageTest"/>
+	      <class name="qa.ecom.testCases.myStorePageTest"/>
+	    <class name="qa.ecom.testCases.searchPageTest"/>
+    
+    
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
